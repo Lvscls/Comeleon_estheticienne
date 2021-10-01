@@ -25,7 +25,6 @@ class __TwigTemplate_c4025a0bb84513b2cd1271fe2957b7afe62dcec085c9f6adf02b76b293f
         $this->source = $this->getSourceContext();
 
         $this->blocks = [
-            'title' => [$this, 'block_title'],
             'body' => [$this, 'block_body'],
         ];
     }
@@ -49,19 +48,6 @@ class __TwigTemplate_c4025a0bb84513b2cd1271fe2957b7afe62dcec085c9f6adf02b76b293f
 
     }
 
-    // line 2
-    public function block_title($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
-
-        echo "Hello BeautybaeController!";
-        
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
-
-    }
-
     // line 3
     public function block_body($context, array $blocks = [])
     {
@@ -70,13 +56,49 @@ class __TwigTemplate_c4025a0bb84513b2cd1271fe2957b7afe62dcec085c9f6adf02b76b293f
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
-        echo "<div class=\"card border-primary mb-3\" style=\"max-width: 20rem;\">
-  <div class=\"card-header\">Présentation</div>
-  <div class=\"card-body\">
-    <h4 class=\"card-title\">Beautybae</h4>
-    <p class=\"card-text\"></p>
+        echo "
+   <section id=\"header\" class=\"jumbotron text-center\">
+     <h1 class=\"display-3\">Beautybae</h1>
+     <p class=\"lead\">Institut de beauté</p>
+</section>
+  
+<section id=\"gallery\">
+  <div class=\"container\">
+    <div class=\"row\">
+    <div class=\"col-lg-4 mb-4\">
+    <div class=\"card\">
+      <img src=\"assets/Image/laser.jpg\" alt=\"\" class=\"card-img-top\">
+      <div class=\"card-body\">
+        <h5 class=\"card-title\">Présentation</h5>
+        <p class=\"card-text\">Esthéticienne à Vernon Beautybae, vous propose des soins à domicile et au salon près de Saint-Marcel. Riche de 20 années d’expérience, votre esthéticienne de Beautybae vous propose des soins de beauté et des épilations dans l'institut ou à domicile à Vernon dans l'Eure (27).</p>
+       <a href=\"\" class=\"btn btn-outline-success btn-sm\">En savoir plus</a>
+      </div>
+     </div>
+    </div>
+  <div class=\"col-lg-4 mb-4\">
+  <div class=\"card\">
+      <img src=\"assets/Image/maillot.jpg\" alt=\"\" class=\"card-img-top\">
+      <div class=\"card-body\">
+        <h5 class=\"card-title\">Prestations</h5>
+        <p class=\"card-text\">Nous proposons des prestation pour femme et homme. De l'épilation aux soins du corps ou du visage. Notre large choix de prestation vous assure de trouver ce qu'il faut.</p>
+       <a href=\"\" class=\"btn btn-outline-success btn-sm\">Voir les prestations</a>
+      </div>
+      </div>
+    </div>
+    <div class=\"col-lg-4 mb-4\">
+    <div class=\"card\">
+      <img src=\"assets/Image/calvasse.jpg\" alt=\"\" class=\"card-img-top\">
+      <div class=\"card-body\">
+        <h5 class=\"card-title\">Votre avis compte</h5>
+        <p class=\"card-text\">Afin de vous proposer le meilleur service possible. Nous prenons en compte vos avis et vos commentaires.</p>
+       <a href=\"\" class=\"btn btn-outline-success btn-sm\">Laisser un avis</a>
+      </div>
+     </div>
+    </div>
   </div>
 </div>
+</section>
+
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -95,21 +117,57 @@ class __TwigTemplate_c4025a0bb84513b2cd1271fe2957b7afe62dcec085c9f6adf02b76b293f
 
     public function getDebugInfo()
     {
-        return array (  73 => 4,  66 => 3,  53 => 2,  36 => 1,);
+        return array (  59 => 4,  52 => 3,  35 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
-{% block title %}Hello BeautybaeController!{% endblock %}
+
 {% block body %}
-<div class=\"card border-primary mb-3\" style=\"max-width: 20rem;\">
-  <div class=\"card-header\">Présentation</div>
-  <div class=\"card-body\">
-    <h4 class=\"card-title\">Beautybae</h4>
-    <p class=\"card-text\"></p>
+
+   <section id=\"header\" class=\"jumbotron text-center\">
+     <h1 class=\"display-3\">Beautybae</h1>
+     <p class=\"lead\">Institut de beauté</p>
+</section>
+  
+<section id=\"gallery\">
+  <div class=\"container\">
+    <div class=\"row\">
+    <div class=\"col-lg-4 mb-4\">
+    <div class=\"card\">
+      <img src=\"assets/Image/laser.jpg\" alt=\"\" class=\"card-img-top\">
+      <div class=\"card-body\">
+        <h5 class=\"card-title\">Présentation</h5>
+        <p class=\"card-text\">Esthéticienne à Vernon Beautybae, vous propose des soins à domicile et au salon près de Saint-Marcel. Riche de 20 années d’expérience, votre esthéticienne de Beautybae vous propose des soins de beauté et des épilations dans l'institut ou à domicile à Vernon dans l'Eure (27).</p>
+       <a href=\"\" class=\"btn btn-outline-success btn-sm\">En savoir plus</a>
+      </div>
+     </div>
+    </div>
+  <div class=\"col-lg-4 mb-4\">
+  <div class=\"card\">
+      <img src=\"assets/Image/maillot.jpg\" alt=\"\" class=\"card-img-top\">
+      <div class=\"card-body\">
+        <h5 class=\"card-title\">Prestations</h5>
+        <p class=\"card-text\">Nous proposons des prestation pour femme et homme. De l'épilation aux soins du corps ou du visage. Notre large choix de prestation vous assure de trouver ce qu'il faut.</p>
+       <a href=\"\" class=\"btn btn-outline-success btn-sm\">Voir les prestations</a>
+      </div>
+      </div>
+    </div>
+    <div class=\"col-lg-4 mb-4\">
+    <div class=\"card\">
+      <img src=\"assets/Image/calvasse.jpg\" alt=\"\" class=\"card-img-top\">
+      <div class=\"card-body\">
+        <h5 class=\"card-title\">Votre avis compte</h5>
+        <p class=\"card-text\">Afin de vous proposer le meilleur service possible. Nous prenons en compte vos avis et vos commentaires.</p>
+       <a href=\"\" class=\"btn btn-outline-success btn-sm\">Laisser un avis</a>
+      </div>
+     </div>
+    </div>
   </div>
 </div>
+</section>
+
 {% endblock %}", "beautybae/accueil.html.twig", "C:\\Users\\vasconcl\\Documents\\workspace\\Comeleon_estheticienne\\templates\\beautybae\\accueil.html.twig");
     }
 }
