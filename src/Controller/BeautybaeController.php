@@ -17,4 +17,14 @@ class BeautybaeController extends AbstractController
             'controller_name' => 'BeautybaeController',
         ]);
     }
+
+    /**
+     * @Route("/accueil", name="accueil")
+     */
+    public function accueil(): Response
+    {
+        return $this->render('beautybae/accueil.html.twig', [
+            'controller_name' => 'BeautybaeController',
+        ]);
+    }
 }
