@@ -38,12 +38,12 @@ class Prestation
     private $description;
 
     /**
-     * @ORM\ManyToOne(targetEntity=genre::class, inversedBy="genre")
+     * @ORM\ManyToOne(targetEntity=Genre::class, inversedBy="genre")
      */
     private $genre;
 
     /**
-     * @ORM\ManyToOne(targetEntity=categorie::class, inversedBy="categorie")
+     * @ORM\ManyToOne(targetEntity=Categorie::class, inversedBy="categorie")
      */
     private $categorie;
 
