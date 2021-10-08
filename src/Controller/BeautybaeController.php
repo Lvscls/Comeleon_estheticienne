@@ -8,6 +8,15 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class BeautybaeController extends AbstractController
 {
+        /**
+     * @Route("/accueil", name="accueil")
+     */
+    public function accueil(): Response
+    {
+        return $this->render('beautybae/accueil.html.twig', [
+            'controller_name' => 'BeautybaeController',
+        ]);
+    }
     /**
      * @Route("/beautybae", name="beautybae")
      */
@@ -18,13 +27,5 @@ class BeautybaeController extends AbstractController
         ]);
     }
 
-    /**
-     * @Route("/accueil", name="accueil")
-     */
-    public function accueil(): Response
-    {
-        return $this->render('beautybae/accueil.html.twig', [
-            'controller_name' => 'BeautybaeController',
-        ]);
-    }
+
 }

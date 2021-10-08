@@ -61,7 +61,7 @@ class __TwigTemplate_0f327d49688b58f1e33853614bd84c7c885ba9d710285b3da6b0905aec0
     <div class=\"collapse navbar-collapse\" id=\"navbarColor03\">
       <ul class=\"navbar-nav me-auto\">
         <li class=\"nav-item\">
-          <a class=\"nav-link active\" href=\"accueil\">Accueil
+          <a class=\"nav-link active\" href=\"/accueil\">Accueil
             <span class=\"visually-hidden\">(current)</span>
           </a>
         </li>
@@ -69,7 +69,7 @@ class __TwigTemplate_0f327d49688b58f1e33853614bd84c7c885ba9d710285b3da6b0905aec0
           <a class=\"nav-link\" href=\"#\">Présentation</a>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"prestation\">Prestations</a>
+          <a class=\"nav-link\" href=\"/prestation\">Prestations</a>
         </li>
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"#\">Avis</a>
@@ -146,7 +146,7 @@ class __TwigTemplate_0f327d49688b58f1e33853614bd84c7c885ba9d710285b3da6b0905aec0
     <div class=\"collapse navbar-collapse\" id=\"navbarColor03\">
       <ul class=\"navbar-nav me-auto\">
         <li class=\"nav-item\">
-          <a class=\"nav-link active\" href=\"accueil\">Accueil
+          <a class=\"nav-link active\" href=\"/accueil\">Accueil
             <span class=\"visually-hidden\">(current)</span>
           </a>
         </li>
@@ -154,7 +154,7 @@ class __TwigTemplate_0f327d49688b58f1e33853614bd84c7c885ba9d710285b3da6b0905aec0
           <a class=\"nav-link\" href=\"#\">Présentation</a>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"prestation\">Prestations</a>
+          <a class=\"nav-link\" href=\"/prestation\">Prestations</a>
         </li>
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"#\">Avis</a>

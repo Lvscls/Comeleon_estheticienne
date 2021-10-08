@@ -12,8 +12,8 @@ use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\Request;
 
 use Symfony\Component\Form\Extension\Core\Type\TextType;
-
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
+use Symfony\Component\Form\Extension\Core\Type\DateTimeType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 
 class PrestationController extends AbstractController
@@ -32,6 +32,7 @@ class PrestationController extends AbstractController
         ]);
     }
 
+
     
     /**
      * @Route("/prestation/{id}", name="reserver")
@@ -44,10 +45,10 @@ class PrestationController extends AbstractController
         $reserver = new reserver();
         $manager = $this->getDoctrine()->getManager();
         $form = $this->createFormBuilder($reserver)
-                ->add('date')
-                ->add('name')
-                ->add('phone')
-                ->add('mail')
+                ->add('date', DateTimeType::class, array("label"=>"Dtae et heure"))
+                ->add('name', TextType::class, array("label"=>"Nom"))
+                ->add('phone', TextType::class, array("label"=>"Téléphone"))
+                ->add('mail', TextType::class, array("label"=>"Mail"))
                 ->getForm();
                 $form->handleRequest($request);
 
@@ -55,7 +56,7 @@ class PrestationController extends AbstractController
 
         if($form->isSubmitted() && $form->isValid()) {
 
-            $reserver->setCreatedAt(new \DateTime());
+            $reserver->setDate(new \DateTime());
 
 
 
@@ -74,10 +75,7 @@ class PrestationController extends AbstractController
             'formReserver' => $form->createView(),
             'prestations' => $prestations
         ]);
-        return $this->render('prestation/reserver.html.twig', [
-            'controller_name' => 'PrestationController',
-            'prestations' => $prestations
-        ]);
+
     }
 
     
