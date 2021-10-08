@@ -45,11 +45,13 @@ class __TwigTemplate_52a0b7a3b10a80c10b155b14e5864aa3076ee2c2de72605424ec9ade2d1
         <title></title>
     <link rel=\"stylesheet\" href=\"assets/css/bootstrap.min.css\" />
         <link rel=\"stylesheet\" href=\"assets/css/accueil.css\" />
+        <link rel=\"icon\" type=\"image/jpeg\" sizes=\"16x16\" href=\"assets/Image/logo.jpg\">
     </head>
     <body>
     <header>
     <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
   <div class=\"container-fluid\">
+<img src=\"assets/Image/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">
     <a class=\"navbar-brand\" href=\"\">Beautybae</a>
     <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor03\" aria-controls=\"navbarColor03\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
       <span class=\"navbar-toggler-icon\"></span>
@@ -84,9 +86,9 @@ class __TwigTemplate_52a0b7a3b10a80c10b155b14e5864aa3076ee2c2de72605424ec9ade2d1
 </nav>
     </header>
     ";
-        // line 46
-        $this->displayBlock('body', $context, $blocks);
         // line 48
+        $this->displayBlock('body', $context, $blocks);
+        // line 50
         echo "
 ";
         
@@ -94,14 +96,14 @@ class __TwigTemplate_52a0b7a3b10a80c10b155b14e5864aa3076ee2c2de72605424ec9ade2d1
 
     }
 
-    // line 46
+    // line 48
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 47
+        // line 49
         echo "    ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -115,7 +117,7 @@ class __TwigTemplate_52a0b7a3b10a80c10b155b14e5864aa3076ee2c2de72605424ec9ade2d1
 
     public function getDebugInfo()
     {
-        return array (  105 => 47,  98 => 46,  90 => 48,  88 => 46,  41 => 1,);
+        return array (  107 => 49,  100 => 48,  92 => 50,  90 => 48,  41 => 1,);
     }
 
     public function getSourceContext()
@@ -127,11 +129,13 @@ class __TwigTemplate_52a0b7a3b10a80c10b155b14e5864aa3076ee2c2de72605424ec9ade2d1
         <title></title>
     <link rel=\"stylesheet\" href=\"assets/css/bootstrap.min.css\" />
         <link rel=\"stylesheet\" href=\"assets/css/accueil.css\" />
+        <link rel=\"icon\" type=\"image/jpeg\" sizes=\"16x16\" href=\"assets/Image/logo.jpg\">
     </head>
     <body>
     <header>
     <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
   <div class=\"container-fluid\">
+<img src=\"assets/Image/logo.jpg\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">
     <a class=\"navbar-brand\" href=\"\">Beautybae</a>
     <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor03\" aria-controls=\"navbarColor03\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
       <span class=\"navbar-toggler-icon\"></span>
