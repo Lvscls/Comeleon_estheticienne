@@ -56,89 +56,97 @@ class __TwigTemplate_5a9078e5b208c893dedf1afe0d01e9456bcc0bf35f42a39d42308ee23f7
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 3
+        echo "    ";
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["prestations"]) || array_key_exists("prestations", $context) ? $context["prestations"] : (function () { throw new RuntimeError('Variable "prestations" does not exist.', 3, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["prestation"]) {
             // line 4
-            echo "<div id=\"container\">\t
-\t
-<!-- Start\tProduct details -->
-\t<div class=\"product-details\">
-\t\t
-\t\t<!-- \tProduct Name -->
-\t<h1>";
-            // line 10
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestation"], "libelle", [], "any", false, false, false, 10), "html", null, true);
+            echo "        <div
+            id=\"container\">
+
+            <!-- Start\tProduct details -->
+            <div
+                class=\"product-details\">
+
+                <!-- \tProduct Name -->
+                <h1>";
+            // line 12
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestation"], "libelle", [], "any", false, false, false, 12), "html", null, true);
             echo "</h1>
-<!-- \t\t<span class=\"hint new\">New</span> -->
-<!-- \t\t<span class=\"hint free-shipping\">Free Shipping</span> -->
-<!-- \t\tthe Product rating -->
-\t<span class=\"hint-star star\">
-\t\t<i class=\"fa fa-star\" aria-hidden=\"true\"></i>
-\t\t<i class=\"fa fa-star\" aria-hidden=\"true\"></i>
-\t\t<i class=\"fa fa-star\" aria-hidden=\"true\"></i>
-\t\t<i class=\"fa fa-star-half-o\" aria-hidden=\"true\"></i>
-\t\t<i class=\"fa fa-star-o\" aria-hidden=\"true\"></i>
-\t</span>
-\t\t
-\t
-<!-- The most important information about the product -->
-\t\t<p class=\"information\">";
-            // line 24
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestation"], "description", [], "any", false, false, false, 24), "html", null, true);
+                <!-- \t\t<span class=\"hint new\">New</span> -->
+                <!-- \t\t<span class=\"hint free-shipping\">Free Shipping</span> -->
+                <!-- \t\tthe Product rating -->
+                    <span class=\"hint-star star\"> <i class=\"fa fa-star\" aria-hidden=\"true\"></i>
+                    <i class=\"fa fa-star\" aria-hidden=\"true\"></i>
+                    <i class=\"fa fa-star\" aria-hidden=\"true\"></i>
+                    <i class=\"fa fa-star-half-o\" aria-hidden=\"true\"></i>
+                    <i class=\"fa fa-star-o\" aria-hidden=\"true\"></i>
+                </span>
+
+
+                <!-- The most important information about the product -->
+                <p class=\"information\">";
+            // line 25
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestation"], "description", [], "any", false, false, false, 25), "html", null, true);
             echo "</p>
 
-\t\t
-\t\t
-<!-- \t\tControl -->
-<div class=\"control\">
-\t
-<!-- Start Button buying -->
-\t<button class=\"btn\">
-<!-- \t\tthe Price -->
-\t <span class=\"price\">  ";
-            // line 34
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestation"], "prix", [], "any", false, false, false, 34), "html", null, true);
-            echo " €</span>
-<!-- \t\tshopping cart icon-->
-   <span class=\"shopping-cart\"><i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i></span>
-<!-- \t\tBuy Now / ADD to Cart-->
- </button>
-\t<!-- End Button buying -->
-\t
-</div>
-\t\t\t
-</div>
-\t
-<!-- \tEnd\tProduct details   -->
-\t
-\t
-\t
-<!-- \tStart product image & Information -->
-\t
-<div class=\"product-image\">
-\t
-\t<img src=\"assets/Image/";
-            // line 53
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestation"], "libelle", [], "any", false, false, false, 53), "html", null, true);
-            echo ".jpg\" alt=\"Omar Dsoky\">
-\t
-</div>
-<!--  End product image  -->
+
+                <!-- \t\tControl -->
+                <div
+                    class=\"control\">
+
+                    <!-- Start Button buying -->
+                    <button
+                        class=\"btn\">
+                        <!-- \t\tthe Price -->
+                        <span class=\"price\">
+                            ";
+            // line 37
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestation"], "prix", [], "any", false, false, false, 37), "html", null, true);
+            echo "
+                            €</span>
+                        <!-- \t\tshopping cart icon-->
+                        <span class=\"shopping-cart\">
+                            <i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i>
+                        </span>
+                        <!-- \t\tBuy Now / ADD to Cart-->
+
+                        <a href=\"";
+            // line 45
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("reserver", ["id" => twig_get_attribute($this->env, $this->source, $context["prestation"], "id", [], "any", false, false, false, 45)]), "html", null, true);
+            echo "\"><span class=\"buy\">Réserver</span></a>
+                    </button>
+                    <!-- End Button buying -->
+
+                </div>
+
+            </div>
+
+            <!-- \tEnd\tProduct details   -->
 
 
-</div>
+            <!-- \tStart product image & Information -->
+
+            <div class=\"product-image\">
+
+                <img src=\"assets/Image/";
+            // line 60
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestation"], "libelle", [], "any", false, false, false, 60), "html", null, true);
+            echo ".jpg\" alt=\"Omar Dsoky\"></div>
+                <!--  End product image  -->
 
 
+            </div>
 
-  ";
+
+        ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['prestation'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 64
+        // line 68
         echo "
-";
+    ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -156,75 +164,80 @@ class __TwigTemplate_5a9078e5b208c893dedf1afe0d01e9456bcc0bf35f42a39d42308ee23f7
 
     public function getDebugInfo()
     {
-        return array (  140 => 64,  123 => 53,  101 => 34,  88 => 24,  71 => 10,  63 => 4,  59 => 3,  52 => 2,  35 => 1,);
+        return array (  148 => 68,  134 => 60,  116 => 45,  105 => 37,  90 => 25,  74 => 12,  64 => 4,  59 => 3,  52 => 2,  35 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
 {% block body %}
-{% for prestation in prestations %}
-<div id=\"container\">\t
-\t
-<!-- Start\tProduct details -->
-\t<div class=\"product-details\">
-\t\t
-\t\t<!-- \tProduct Name -->
-\t<h1>{{ prestation.libelle}}</h1>
-<!-- \t\t<span class=\"hint new\">New</span> -->
-<!-- \t\t<span class=\"hint free-shipping\">Free Shipping</span> -->
-<!-- \t\tthe Product rating -->
-\t<span class=\"hint-star star\">
-\t\t<i class=\"fa fa-star\" aria-hidden=\"true\"></i>
-\t\t<i class=\"fa fa-star\" aria-hidden=\"true\"></i>
-\t\t<i class=\"fa fa-star\" aria-hidden=\"true\"></i>
-\t\t<i class=\"fa fa-star-half-o\" aria-hidden=\"true\"></i>
-\t\t<i class=\"fa fa-star-o\" aria-hidden=\"true\"></i>
-\t</span>
-\t\t
-\t
-<!-- The most important information about the product -->
-\t\t<p class=\"information\">{{ prestation.description}}</p>
+    {% for prestation in prestations %}
+        <div
+            id=\"container\">
 
-\t\t
-\t\t
-<!-- \t\tControl -->
-<div class=\"control\">
-\t
-<!-- Start Button buying -->
-\t<button class=\"btn\">
-<!-- \t\tthe Price -->
-\t <span class=\"price\">  {{ prestation.prix}} €</span>
-<!-- \t\tshopping cart icon-->
-   <span class=\"shopping-cart\"><i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i></span>
-<!-- \t\tBuy Now / ADD to Cart-->
- </button>
-\t<!-- End Button buying -->
-\t
-</div>
-\t\t\t
-</div>
-\t
-<!-- \tEnd\tProduct details   -->
-\t
-\t
-\t
-<!-- \tStart product image & Information -->
-\t
-<div class=\"product-image\">
-\t
-\t<img src=\"assets/Image/{{ prestation.libelle}}.jpg\" alt=\"Omar Dsoky\">
-\t
-</div>
-<!--  End product image  -->
+            <!-- Start\tProduct details -->
+            <div
+                class=\"product-details\">
+
+                <!-- \tProduct Name -->
+                <h1>{{ prestation.libelle }}</h1>
+                <!-- \t\t<span class=\"hint new\">New</span> -->
+                <!-- \t\t<span class=\"hint free-shipping\">Free Shipping</span> -->
+                <!-- \t\tthe Product rating -->
+                    <span class=\"hint-star star\"> <i class=\"fa fa-star\" aria-hidden=\"true\"></i>
+                    <i class=\"fa fa-star\" aria-hidden=\"true\"></i>
+                    <i class=\"fa fa-star\" aria-hidden=\"true\"></i>
+                    <i class=\"fa fa-star-half-o\" aria-hidden=\"true\"></i>
+                    <i class=\"fa fa-star-o\" aria-hidden=\"true\"></i>
+                </span>
 
 
-</div>
+                <!-- The most important information about the product -->
+                <p class=\"information\">{{ prestation.description }}</p>
 
 
+                <!-- \t\tControl -->
+                <div
+                    class=\"control\">
 
-  {% endfor %}
+                    <!-- Start Button buying -->
+                    <button
+                        class=\"btn\">
+                        <!-- \t\tthe Price -->
+                        <span class=\"price\">
+                            {{ prestation.prix }}
+                            €</span>
+                        <!-- \t\tshopping cart icon-->
+                        <span class=\"shopping-cart\">
+                            <i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i>
+                        </span>
+                        <!-- \t\tBuy Now / ADD to Cart-->
 
-{% endblock %}", "prestation/prestation.html.twig", "C:\\Users\\vasconcl\\Documents\\workspace\\Comeleon_estheticienne\\templates\\prestation\\prestation.html.twig");
+                        <a href=\"{{ path('reserver', {'id': prestation.id})}}\"><span class=\"buy\">Réserver</span></a>
+                    </button>
+                    <!-- End Button buying -->
+
+                </div>
+
+            </div>
+
+            <!-- \tEnd\tProduct details   -->
+
+
+            <!-- \tStart product image & Information -->
+
+            <div class=\"product-image\">
+
+                <img src=\"assets/Image/{{ prestation.libelle }}.jpg\" alt=\"Omar Dsoky\"></div>
+                <!--  End product image  -->
+
+
+            </div>
+
+
+        {% endfor %}
+
+    {% endblock %}
+", "prestation/prestation.html.twig", "C:\\Users\\vasconcl\\Documents\\workspace\\Comeleon_estheticienne\\templates\\prestation\\prestation.html.twig");
     }
 }

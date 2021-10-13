@@ -47,6 +47,11 @@ class Prestation
      */
     private $categorie;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Reserver::class, inversedBy="prestation")
+     */
+    private $reserverid;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -120,6 +125,18 @@ class Prestation
     public function setCategorie(?categorie $categorie): self
     {
         $this->categorie = $categorie;
+
+        return $this;
+    }
+
+    public function getReserverid(): ?Reserver
+    {
+        return $this->reserverid;
+    }
+
+    public function setReserverid(?Reserver $reserverid): self
+    {
+        $this->reserverid = $reserverid;
 
         return $this;
     }
