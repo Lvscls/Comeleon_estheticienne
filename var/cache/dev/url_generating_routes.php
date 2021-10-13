@@ -5,7 +5,8 @@
 return [
     'beautybae' => [[], ['_controller' => 'App\\Controller\\BeautybaeController::index'], [], [['text', '/beautybae']], [], []],
     'accueil' => [[], ['_controller' => 'App\\Controller\\BeautybaeController::accueil'], [], [['text', '/accueil']], [], []],
+    'avis' => [[], ['_controller' => 'App\\Controller\\BeautybaeController::avis'], [], [['text', '/avis']], [], []],
+    'avis_create' => [[], ['_controller' => 'App\\Controller\\BeautybaeController::create'], [], [['text', '/avis/new']], [], []],
     'contact' => [[], ['_controller' => 'App\\Controller\\ContactController::contact'], [], [['text', '/contact']], [], []],
-    'prestation' => [[], ['_controller' => 'App\\Controller\\PrestationController::index'], [], [['text', '/prestation']], [], []],
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], []],
 ];

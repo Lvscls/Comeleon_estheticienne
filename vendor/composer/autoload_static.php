@@ -422,12 +422,15 @@ class ComposerStaticInit76f7ff75a3990be75743b096e41ba3ce
     );
 
     public static $classMap = array (
+        'App\\Controller\\AvisController' => __DIR__ . '/../..' . '/src/Controller/AvisController.php',
         'App\\Controller\\BeautybaeController' => __DIR__ . '/../..' . '/src/Controller/BeautybaeController.php',
         'App\\Controller\\ContactController' => __DIR__ . '/../..' . '/src/Controller/ContactController.php',
-        'App\\Controller\\PrestationController' => __DIR__ . '/../..' . '/src/Controller/PrestationController.php',
         'App\\DataFixtures\\AppFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/AppFixtures.php',
+        'App\\Entity\\Avis' => __DIR__ . '/../..' . '/src/Entity/Avis.php',
         'App\\Entity\\Contact' => __DIR__ . '/../..' . '/src/Entity/Contact.php',
+        'App\\Form\\ContactType' => __DIR__ . '/../..' . '/src/Form/ContactType.php',
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
+        'App\\Repository\\AvisRepository' => __DIR__ . '/../..' . '/src/Repository/AvisRepository.php',
         'App\\Repository\\CategorieRepository' => __DIR__ . '/../..' . '/src/Repository/CategorieRepository.php',
         'App\\Repository\\ContactRepository' => __DIR__ . '/../..' . '/src/Repository/ContactRepository.php',
         'App\\Repository\\EntrepriseRepository' => __DIR__ . '/../..' . '/src/Repository/EntrepriseRepository.php',

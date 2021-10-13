@@ -43,8 +43,9 @@ class __TwigTemplate_0f327d49688b58f1e33853614bd84c7c885ba9d710285b3da6b0905aec0
     <head>
         <meta charset=\"UTF-8\">
         <title></title>
-    <link rel=\"stylesheet\" href=\"assets/css/bootstrap.min.css\" />
+    <link rel=\"stylesheet\" href=\"/assets/css/bootstrap.min.css\" />
         <link rel=\"stylesheet\" href=\"assets/css/accueil.css\" />
+        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">
     </head>
     <body>
     <header>
@@ -84,9 +85,9 @@ class __TwigTemplate_0f327d49688b58f1e33853614bd84c7c885ba9d710285b3da6b0905aec0
 </nav>
     </header>
     ";
-        // line 46
+        // line 47
         $this->displayBlock('body', $context, $blocks);
-        // line 48
+        // line 49
         echo "
 ";
         
@@ -94,14 +95,14 @@ class __TwigTemplate_0f327d49688b58f1e33853614bd84c7c885ba9d710285b3da6b0905aec0
 
     }
 
-    // line 46
+    // line 47
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 47
+        // line 48
         echo "    ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -115,7 +116,7 @@ class __TwigTemplate_0f327d49688b58f1e33853614bd84c7c885ba9d710285b3da6b0905aec0
 
     public function getDebugInfo()
     {
-        return array (  105 => 47,  98 => 46,  90 => 48,  88 => 46,  41 => 1,);
+        return array (  106 => 48,  99 => 47,  91 => 49,  89 => 47,  41 => 1,);
     }
 
     public function getSourceContext()
@@ -125,8 +126,9 @@ class __TwigTemplate_0f327d49688b58f1e33853614bd84c7c885ba9d710285b3da6b0905aec0
     <head>
         <meta charset=\"UTF-8\">
         <title></title>
-    <link rel=\"stylesheet\" href=\"assets/css/bootstrap.min.css\" />
+    <link rel=\"stylesheet\" href=\"/assets/css/bootstrap.min.css\" />
         <link rel=\"stylesheet\" href=\"assets/css/accueil.css\" />
+        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">
     </head>
     <body>
     <header>

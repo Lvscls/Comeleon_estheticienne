@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+{% form_theme formAvis "bootstrap_4_layout.html.twig"%}
+
+{% block body %}
+    <center> <h1>Déposer un Avis</h1> </center>
+    <br>
+    {{ form_start(formAvis) }}
+
+    {{ form_widget(formAvis) }}
+<br>
+    <button type="submit" class="btn btn-success"> Ajouter l'avis</button>
+
+    {{ form_end(formAvis) }}
+
+
+{% endblock %}

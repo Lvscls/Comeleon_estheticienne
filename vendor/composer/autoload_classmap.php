@@ -6,12 +6,15 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controller\\AvisController' => $baseDir . '/src/Controller/AvisController.php',
     'App\\Controller\\BeautybaeController' => $baseDir . '/src/Controller/BeautybaeController.php',
     'App\\Controller\\ContactController' => $baseDir . '/src/Controller/ContactController.php',
-    'App\\Controller\\PrestationController' => $baseDir . '/src/Controller/PrestationController.php',
     'App\\DataFixtures\\AppFixtures' => $baseDir . '/src/DataFixtures/AppFixtures.php',
+    'App\\Entity\\Avis' => $baseDir . '/src/Entity/Avis.php',
     'App\\Entity\\Contact' => $baseDir . '/src/Entity/Contact.php',
+    'App\\Form\\ContactType' => $baseDir . '/src/Form/ContactType.php',
     'App\\Kernel' => $baseDir . '/src/Kernel.php',
+    'App\\Repository\\AvisRepository' => $baseDir . '/src/Repository/AvisRepository.php',
     'App\\Repository\\CategorieRepository' => $baseDir . '/src/Repository/CategorieRepository.php',
     'App\\Repository\\ContactRepository' => $baseDir . '/src/Repository/ContactRepository.php',
     'App\\Repository\\EntrepriseRepository' => $baseDir . '/src/Repository/EntrepriseRepository.php',
