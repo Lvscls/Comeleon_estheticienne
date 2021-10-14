@@ -72,10 +72,10 @@ class __TwigTemplate_0f327d49688b58f1e33853614bd84c7c885ba9d710285b3da6b0905aec0
           <a class=\"nav-link\" href=\"/prestation\">Prestations</a>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Avis</a>
+          <a class=\"nav-link\" href=\"avis\">Avis</a>
         </li>
                 <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Contact</a>
+          <a class=\"nav-link\" href=\"contact\">Contact</a>
         </li>
       </ul>
       <form class=\"d-flex\">
@@ -157,10 +157,10 @@ class __TwigTemplate_0f327d49688b58f1e33853614bd84c7c885ba9d710285b3da6b0905aec0
           <a class=\"nav-link\" href=\"/prestation\">Prestations</a>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Avis</a>
+          <a class=\"nav-link\" href=\"avis\">Avis</a>
         </li>
                 <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Contact</a>
+          <a class=\"nav-link\" href=\"contact\">Contact</a>
         </li>
       </ul>
       <form class=\"d-flex\">

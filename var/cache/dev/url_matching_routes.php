@@ -10,6 +10,9 @@ return [
     [ // $staticRoutes
         '/accueil' => [[['_route' => 'accueil', '_controller' => 'App\\Controller\\BeautybaeController::accueil'], null, null, null, false, false, null]],
         '/beautybae' => [[['_route' => 'beautybae', '_controller' => 'App\\Controller\\BeautybaeController::index'], null, null, null, false, false, null]],
+        '/avis' => [[['_route' => 'avis', '_controller' => 'App\\Controller\\BeautybaeController::avis'], null, null, null, false, false, null]],
+        '/avis/new' => [[['_route' => 'avis_create', '_controller' => 'App\\Controller\\BeautybaeController::create'], null, null, null, false, false, null]],
+        '/contact' => [[['_route' => 'contact', '_controller' => 'App\\Controller\\ContactController::contact'], null, null, null, false, false, null]],
         '/prestation' => [[['_route' => 'prestation', '_controller' => 'App\\Controller\\PrestationController::index'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
