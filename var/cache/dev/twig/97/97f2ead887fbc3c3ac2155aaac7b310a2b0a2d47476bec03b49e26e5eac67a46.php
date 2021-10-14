@@ -165,6 +165,10 @@ class __TwigTemplate_f03b3fd36537801608a9773417db812a0feda760f6d8e1cda315928ae70
         {%- endfor -%}
     </pre>
 {% endif %}
+<<<<<<< HEAD
 ", "@Doctrine/Collector/explain.html.twig", "C:\\Users\\vasconcl\\Documents\\workspace\\Comeleon_estheticienne\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\explain.html.twig");
+=======
+", "@Doctrine/Collector/explain.html.twig", "C:\\Users\\zabilin\\Desktop\\workspace\\Comeleon_estheticienne\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\explain.html.twig");
+>>>>>>> avis
     }
 }

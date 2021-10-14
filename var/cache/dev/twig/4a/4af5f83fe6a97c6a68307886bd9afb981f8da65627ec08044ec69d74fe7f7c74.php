@@ -424,6 +424,10 @@ col-sm-10
         </div>{#--#}
     </div>
 {%- endblock checkbox_row %}
+<<<<<<< HEAD
 ", "bootstrap_3_horizontal_layout.html.twig", "C:\\Users\\vasconcl\\Documents\\workspace\\Comeleon_estheticienne\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_3_horizontal_layout.html.twig");
+=======
+", "bootstrap_3_horizontal_layout.html.twig", "C:\\Users\\zabilin\\Desktop\\workspace\\Comeleon_estheticienne\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_3_horizontal_layout.html.twig");
+>>>>>>> avis
     }
 }

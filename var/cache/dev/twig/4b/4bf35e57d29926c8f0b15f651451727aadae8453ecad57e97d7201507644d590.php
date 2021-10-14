@@ -168,6 +168,6 @@ class __TwigTemplate_c4025a0bb84513b2cd1271fe2957b7afe62dcec085c9f6adf02b76b293f
 </div>
 </section>
 
-{% endblock %}", "beautybae/accueil.html.twig", "C:\\Users\\vasconcl\\Documents\\workspace\\Comeleon_estheticienne\\templates\\beautybae\\accueil.html.twig");
+{% endblock %}", "beautybae/accueil.html.twig", "C:\\Users\\zabilin\\Desktop\\workspace\\Comeleon_estheticienne\\templates\\beautybae\\accueil.html.twig");
     }
 }

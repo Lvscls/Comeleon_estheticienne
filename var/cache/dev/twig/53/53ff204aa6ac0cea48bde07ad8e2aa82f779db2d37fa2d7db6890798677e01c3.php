@@ -136,6 +136,10 @@ class __TwigTemplate_98618dc7410a6fa4383b49d2c78221d033dc6b451fa9a3ae5567b352099
     </ul>
 </div>
 {% endblock %}
+<<<<<<< HEAD
 ", "prestation/index.html.twig", "C:\\Users\\vasconcl\\Documents\\workspace\\Comeleon_estheticienne\\templates\\prestation\\index.html.twig");
+=======
+", "prestation/index.html.twig", "C:\\Users\\zabilin\\Desktop\\workspace\\Comeleon_estheticienne\\templates\\prestation\\index.html.twig");
+>>>>>>> avis
     }
 }

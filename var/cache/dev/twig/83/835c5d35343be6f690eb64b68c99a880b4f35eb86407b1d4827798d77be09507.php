@@ -379,6 +379,10 @@ class __TwigTemplate_ca5d5f4ffde2e9ed01bafbff86e472b9720c22d7934d2eb4bf5d240c6ad
     {%- set widget_class = widget_class|default('mr-2') -%}
     {{- parent() -}}
 {%- endblock radio_widget -%}
+<<<<<<< HEAD
 ", "tailwind_2_layout.html.twig", "C:\\Users\\vasconcl\\Documents\\workspace\\Comeleon_estheticienne\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\tailwind_2_layout.html.twig");
+=======
+", "tailwind_2_layout.html.twig", "C:\\Users\\zabilin\\Desktop\\workspace\\Comeleon_estheticienne\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\tailwind_2_layout.html.twig");
+>>>>>>> avis
     }
 }

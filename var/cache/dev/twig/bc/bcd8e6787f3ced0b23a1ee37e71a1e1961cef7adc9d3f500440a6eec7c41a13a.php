@@ -668,6 +668,10 @@ class __TwigTemplate_15f5fbc38d04ff73e82da42161369fc9a42af2bb5a37b148c5ba3e1ebe7
         <td class=\"font-normal\">{{ migration.execution_time|default('n/a') }}</td>
     </tr>
 {% endmacro %}
+<<<<<<< HEAD
 ", "@DoctrineMigrations/Collector/migrations.html.twig", "C:\\Users\\vasconcl\\Documents\\workspace\\Comeleon_estheticienne\\vendor\\doctrine\\doctrine-migrations-bundle\\Resources\\views\\Collector\\migrations.html.twig");
+=======
+", "@DoctrineMigrations/Collector/migrations.html.twig", "C:\\Users\\zabilin\\Desktop\\workspace\\Comeleon_estheticienne\\vendor\\doctrine\\doctrine-migrations-bundle\\Resources\\views\\Collector\\migrations.html.twig");
+>>>>>>> avis
     }
 }

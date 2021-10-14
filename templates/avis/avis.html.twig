@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<section class="articles">
+    {% for avis in avis %}
+        <article>
+        <br>
+        <div class="container">
+        <div class="row">
+            <div class="card-header">
+               {{ avis.title }}
+            </div>
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">{{ avis.text | raw}}</p>
+            </div>
+            <div class="card-footer text-muted">
+                <div class="metadata"> Ecrit le {{ avis.createdAt | date('d/m/Y') }} à {{ avis.createdAt | date('H:i') }} </div>
+                <div class="content"> Par {{ avis.nom}}{{ avis.prenom}} </div>
+            </div>
+            </div>
+
+            </div>
+            </div>
+        </article>
+    {% endfor %}
+
+<center> <a href="{{path('avis_create' )}}"> Déposer un avis</a> </center>
+
+
+        
+
+
+{% endblock %}

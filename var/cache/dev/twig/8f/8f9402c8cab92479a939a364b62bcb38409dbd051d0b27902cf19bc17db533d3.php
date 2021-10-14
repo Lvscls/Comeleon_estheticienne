@@ -168,6 +168,10 @@ class __TwigTemplate_de8e60b98e480bc0024c045dad47ee0efcc4c45cff1b1ee7a8719f2099d
 </div>
 </section>
 
+<<<<<<< HEAD
 {% endblock %}", "beautybae/accueil.html.twig", "C:\\Users\\vasconcl\\Documents\\workspace\\Comeleon_estheticienne\\templates\\beautybae\\accueil.html.twig");
+=======
+{% endblock %}", "beautybae/accueil.html.twig", "C:\\Users\\zabilin\\Desktop\\workspace\\Comeleon_estheticienne\\templates\\beautybae\\accueil.html.twig");
+>>>>>>> avis
     }
 }

@@ -1480,6 +1480,10 @@ class __TwigTemplate_2057a5e9ede8c1a0b3de5a936869754d515b0b85ac5abf636249248bb79
         </small>
     {%- endif -%}
 {%- endblock form_help %}
+<<<<<<< HEAD
 ", "bootstrap_4_layout.html.twig", "C:\\Users\\vasconcl\\Documents\\workspace\\Comeleon_estheticienne\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_4_layout.html.twig");
+=======
+", "bootstrap_4_layout.html.twig", "C:\\Users\\zabilin\\Desktop\\workspace\\Comeleon_estheticienne\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_4_layout.html.twig");
+>>>>>>> avis
     }
 }
