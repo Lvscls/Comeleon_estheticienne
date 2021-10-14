@@ -38,14 +38,19 @@ class Prestation
     private $description;
 
     /**
-     * @ORM\ManyToOne(targetEntity=genre::class, inversedBy="genre")
+     * @ORM\ManyToOne(targetEntity=Genre::class, inversedBy="genre")
      */
     private $genre;
 
     /**
-     * @ORM\ManyToOne(targetEntity=categorie::class, inversedBy="categorie")
+     * @ORM\ManyToOne(targetEntity=Categorie::class, inversedBy="categorie")
      */
     private $categorie;
+
+    /**
+     * @ORM\ManyToOne(targetEntity=Reserver::class, inversedBy="prestation")
+     */
+    private $reserverid;
 
     public function getId(): ?int
     {
@@ -120,6 +125,18 @@ class Prestation
     public function setCategorie(?categorie $categorie): self
     {
         $this->categorie = $categorie;
+
+        return $this;
+    }
+
+    public function getReserverid(): ?Reserver
+    {
+        return $this->reserverid;
+    }
+
+    public function setReserverid(?Reserver $reserverid): self
+    {
+        $this->reserverid = $reserverid;
 
         return $this;
     }
