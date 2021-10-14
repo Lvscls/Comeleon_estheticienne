@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+{% form_theme formReserver 'bootstrap_4_layout.html.twig' %}
+<div class="container">
+    <h1>Reserver votre {{prestations.libelle}}</h1>
+
+  {{form_start(formReserver)}}
+
+    <center>
+    <div class="form-group", style="width:60%; text-align:left;">
+        {{ form_row(formReserver.date)}}
+
+        {{ form_row(formReserver.name, { 'attr' : { placeholder : "Votre Nom" }}) }}
+
+
+
+        {{ form_row(formReserver.phone, { 'attr' : { placeholder : "Votre numéro de téléphone" }}) }}
+
+
+
+        {{ form_row(formReserver.mail, { 'attr' : { placeholder : "Votre adresse email" }}) }}
+
+    </div>
+    </center>
+
+
+
+    <button type="submit" class="btn btn-success">Envoyer</button>
+
+   
+  {{form_end(formReserver)}}
+</div>
+
+{% endblock %}
